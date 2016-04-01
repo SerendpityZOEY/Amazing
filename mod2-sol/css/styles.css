@@ -1,0 +1,95 @@
+/*mobile view*/
+@media (max-width: 767px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: calc(50% - 1em);
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/*desktop version*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: calc(33.33% - 1em);
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    background: url('http://www.nandos.com.my/fullmenu/items/adfish_bluesky.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-lg-4, .col-md-6, .col-sm-12{
+    margin: .5em .5em .5em .5em;
+    position:relative;
+    min-height: 1px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin: 1em 0 1.2em 0;
+}
+
+section > p{
+    clear: right;
+    padding: .5em;
+    margin: 1em 1em 1em 1em;
+}
+
+section > h2 {
+    width: 150px;
+    text-align: center;
+    font-size: 1.25em;
+    margin: 0 0 .5em .5em;
+    padding: .3em 0 .3em 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    float: right;
+}
+
+section:nth-child(1) > h2 {
+    background-color: lavender;
+    color: rebeccapurple;
+}
+
+section:nth-child(2) > h2 {
+    background-color: darkcyan;
+    color: white;
+}
+
+section:nth-child(3) > h2 {
+    background-color: orange;
+    color: purple;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
