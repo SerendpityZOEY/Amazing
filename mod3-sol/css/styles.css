@@ -67,10 +67,15 @@ section p {
     padding: 0 6px 4px 6px;
 }
 
+section a{
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .navbar-brand h1 {
         font-size: 6vw;
     }
+
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .container{
