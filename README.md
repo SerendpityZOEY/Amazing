@@ -1,2 +1,2 @@
 # Coursera-Web-Development
-Coursera tests
+Assignments for this course

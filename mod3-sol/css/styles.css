@@ -73,7 +73,7 @@ section a{
 
 @media (max-width: 768px) {
     .navbar-brand h1 {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
 }
