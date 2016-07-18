@@ -47,8 +47,8 @@ google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
         var mapOptions = {
-            center: new google.maps.LatLng(27.734607,85.664078),
-            zoom: 12,
+            center: new google.maps.LatLng(40.0090621,-105.2797575),
+            zoom: 3,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
@@ -139,7 +139,7 @@ google.maps.event.addDomListener(window, 'load', init);
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Coffee Shop', 'London', '121 1212 2121', 'info@coffee.com', 'coffee.com', 27.7236, 85.5247, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
+['CU Boulder', 'Boulder', '303-588-5485', 'yuzh3168AtcoloradoDOTedu', 'colorado.edu', 40.0076, -105.2659, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
