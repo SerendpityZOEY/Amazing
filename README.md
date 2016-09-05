@@ -1,5 +1,5 @@
 # Welcome to Zoey's website!
 
-(\../)
-(O.o)
-(> <)
+# (\../)
+# (O.o)
+# (> <)
